@@ -43,4 +43,10 @@ ul {
     display: flex;
     justify-content: space-between;
     width: 100px;
+    font-size: 20px;
+}
+
+.experiencia {
+    display: flex;
+
 }
