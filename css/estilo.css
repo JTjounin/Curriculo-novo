@@ -1,8 +1,10 @@
 * {
-    margin: 0;padding: 0;
+    margin: 0;padding: ;
 }
 
 body {
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
     color: #333;
@@ -46,7 +48,51 @@ ul {
     font-size: 20px;
 }
 
+a {
+    color: black;
+}
+
+.experiencias {
+    margin-top: 30px;
+}
+
 .experiencia {
     display: flex;
-
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
+
+.esquerda {
+    width: 20%;
+    text-align: right;
+    
+}
+
+.titulo-sessao , .subtitulo-sessao{
+font-size: 20px;
+text-transform: uppercase;
+margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.subtitulo-sessao {
+    font-size: 15px;
+}
+
+.direita {
+    width: 78%;
+}
+
+.titulo-texto {
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.rodape {
+    background: #333;
+    color: #f1f1f1;;
+    text-align: center;
+    padding: 20px;
+}
+
