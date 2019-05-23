@@ -2,6 +2,8 @@
     margin: 0;padding: ;
 }
 
+
+
 body {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -17,6 +19,7 @@ body {
 }
 
 .cabecalho {
+    background-image: url(../img/inha.gif);
     display: flex;
     justify-content: space-between;
     padding: 20 0;
@@ -41,6 +44,11 @@ ul {
     margin-bottom: 30px;
 }
 
+.dados-pessoais{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
 .redes-sociais {
     display: flex;
     justify-content: space-between;
@@ -52,10 +60,12 @@ a {
     color: black;
 }
 
-/
+
+
+ /* Conteudo */
 
 .experiencias {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .experiencia {
@@ -99,4 +109,46 @@ margin-bottom: 10px;
 }
 
 
+form {
+    width: 100%;
+    margin: 0 0 30px 150px;
+    display: flex;
+   justify-content: center;
+}
+
+input, textarea {
+    border:2px solid #ccc; 
+    padding: 3px;
+}
+
+input {
+    border-radius: 50px;
+}
+
+textarea {
+    border-radius: 15px;
+}
+
+.nomeAssunto {
+    display: flex;
+    flex-direction: column;
+    margin-right: 35px;
+    
+}
+
+.nomeAssunto .nome {
+    margin-bottom: 10px;
+}
+
+.mensagemBotao .mensagem {
+    height: 50px;
+    width: 200px;
+    margin-right: 10px;
+    resize: none;
+}
+
+.mensagemBotao {
+    display: flex;
+    align-items: flex-end;
+}
 
