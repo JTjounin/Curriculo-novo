@@ -31,6 +31,7 @@ body {
     margin-right: 10px;
 }
 
+
 .info {
     display: flex;
     align-items: center;
@@ -100,6 +101,67 @@ margin-bottom: 10px;
     margin-bottom: 10px;
     font-size: 17px;
 }
+
+
+.habilidades {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.barra {
+
+    height: 10px;
+    background: #000000;
+    border-radius: 5px;
+
+    
+}
+
+
+
+.HB-100 {
+    width: 100%;
+}
+
+.HB-90 {
+    width: 90%;
+}
+
+.HB-80 {
+    width: 80%;
+}
+
+.HB-70 {
+    width: 70%;
+}
+
+.HB-60 {
+    width: 60%;
+}
+
+.HB-50 {
+    width: 50%;
+}
+
+.skill {
+    width: 48%;
+    
+}
+
+.skill div {
+    display: flex;
+}
+
+.skill div span {
+    margin-right: 30px;
+}
+
+
+
+
+
+/*lá em baixo */
 
 .rodape {
     background: #333;
