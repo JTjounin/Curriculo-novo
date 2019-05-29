@@ -19,7 +19,6 @@ body {
 }
 
 .cabecalho {
-    background-image: url(../img/inha.gif);
     display: flex;
     justify-content: space-between;
     padding: 20 0;
@@ -112,7 +111,7 @@ margin-bottom: 10px;
 .barra {
 
     height: 10px;
-    background: #000000;
+    background: darkgray;
     border-radius: 5px;
 
     
@@ -147,6 +146,13 @@ margin-bottom: 10px;
 .skill {
     width: 48%;
     
+}
+
+.border {
+    border: 1px solid #333;
+    width: 100%;
+    border-radius: 50px;
+    height: 30%;
 }
 
 .skill div {
